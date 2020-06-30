@@ -1,0 +1,17 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 600px;
+}
+.grid div {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+.grid .playerX {
+  background-image: url("cross.png");
+}
+.grid .playerO {
+  background-image: url("circle.png");
+}
